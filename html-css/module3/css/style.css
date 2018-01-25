@@ -1,16 +1,15 @@
 body {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	background-image: url(../img/page-bg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% auto cover;
-	width: 1920px;
-	height: 2172px;
+	background-size: 1920px 2174px cover;
+	width: 100%;
+	
 }
 
 .wrapper {
-	margin-top: 240px;
-	margin-left: auto;
+	margin: 240px 720px;
 	padding: 20px;
 	width: 480px;
 	box-sizing: border-box;
