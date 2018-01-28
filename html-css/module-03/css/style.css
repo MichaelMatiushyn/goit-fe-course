@@ -9,16 +9,42 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	font-family: Arial;
 	}
+h2 {
+	font-family: "Pathway Gothic One";
+	font-weight: normal;
+	font-size: 30px;
+}
 
 .wrapper {
 	margin: 240px auto;
-	padding: 20px;
+	padding: 50px;
 	width: 480px;
 	background-color: white; 
 }
 
 .img1 {
-	width: 400px;
+	width: 380px;
 	height: 150px;
+}
+
+hr {
+	margin: 60px 0;
+}
+.box, .box2 {
+	display: inline-block;
+	width: 180px;
+	margin: 5px auto;
+	padding: 2px;
+	vertical-align: top;
+}
+.ab {
+	margin: 2px;
+	padding: 2px;
+}
+.links a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
 }
