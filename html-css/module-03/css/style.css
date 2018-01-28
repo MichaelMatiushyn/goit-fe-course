@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/page-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	}
+
+.wrapper {
+	margin: 240px auto;
+	padding: 20px;
+	width: 480px;
+	background-color: white; 
+}
+
+.img1 {
+	width: 400px;
+	height: 150px;
+}
