@@ -2,4 +2,27 @@ body {
 	margin:0;
 	padding:0;
 	background-color: lightgrey;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.wrapper, .wrapper2, .wrapper3 {
+	padding: 12px 35px;
+	width: 480px;
+	margin: 10px auto;
+	background-color: white;
+}
+.wrapper p:first-of-type, .wrapper2 p:first-of-type {
+	color: #283757;
+	font-size: 16px;
+}
+h3 {
+	font-family: "Pathway Gothic One";
+	font-weight: normal;
+	font-size: 26px;
+	color: #333366;
+}
+.beach {
+	width: 440px;
+	height: 150px;
 }
