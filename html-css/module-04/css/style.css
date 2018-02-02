@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../img/page-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: Arial;
+	font-size: 13px;
+	color: #4e5050;
+}
+.wrapper {
+	margin: 230px auto;
+	padding: 115px 60px;
+	width: 1024px;
+	background-color: white;
+}
+.intro {
+	counter-reset: list1;
+}
+h2 {
+	margin-bottom: 50px;
+	font-family: "Pathway Gothic One";
+	font-weight: normal;
+	font-size: 32px;
+	color: #263555;
+}
+h4 {
+	color: #263555;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+hr {
+	margin: 70px 0;
+	margin-top: 50px;
+	color: #dedbdb;
+}
+.box1, .box2, .box3, .box4 {
+	display: inline-block;
+	vertical-align: top;
+}
+.box1, .box3 {
+	width:620px;
+	padding-right: 20px;
+}
+.box1 img {
+	width: 360px;
+	height: 280px;
+	float: left;
+	margin: 0 25px 25px 0;
+}
+
+.box2, .box4 {
+	width: 275px;
+	padding-left:70px;
+}
+.box2 p {
+	margin-bottom: 15px; 
+}
+.box2 h4::before {
+	width:26px;
+	height:26px;
+	display: inline-block;
+	border:1px solid #4f9abc;
+	border-radius: 13px;
+	-moz-border-radius: 13px;
+	position: relative;
+	left: -45px;
+	font-size: 20px;
+	content: counter(list1);
+	counter-increment: list1 1;
+	color: white;
+	background-color: #38afe5;
+	text-align: center;
+	margin-right: -28px;
+}
+.box2 h4 {
+	text-align: left;
+}
+.mbox, .mbox2 {
+	display: inline-block;
+	margin-right: 65px;
+	vertical-align: top;
+}
+
+ul li {
+	list-style-type: none;
+	margin-top: 25px;
+	color: #263555;
+}
+ul li::before {
+	content: "\2192";
+	color:#38afe5;
+	font-size: 15px;
+	margin-right: 7px;
+}
+.links	{
+	margin-top:15px;
+}
+.links a {
+	text-decoration: none;
+	color: #263555;
+	font-size: 14px;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+}
+.quotation p{
+	position: relative;
+	top: -20px;
+	border: 1px solid #dfdcdc;
+	border-radius: 3px;
+	background-color: #fcfafa;
+	color: #263555;
+	padding: 18px;
+}
+.quotation p::before {
+	content: "\201c";
+}
+.quotation p::after {
+	content: "\201d";
+}
+.prodman {
+	text-align: center;
+	color: #4e5050;
+}
+.prodman p:first-of-type {
+	font-size: 15px;
+	margin: 15px 0;
+	color: #263555;
+}
