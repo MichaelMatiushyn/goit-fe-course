@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	padding: 40px;
+}
+
+.task {
+	margin-top: 20px;
+}
+
+.task1 ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 70px;
+}
+.task1 ul li:nth-last-child(-n + 1) {
+	margin-right: 0;
+}
+.task1 ul li:first-letter {
+	font-size: 20px;
+	color: red;
+	text-transform: uppercase;
+}
+.task1 ul li:hover {
+	background-color: #efefef;
+	outline: 1px solid lightgrey;
+	box-sizing: border-box;
+}
+.list li:nth-child(3n+1) {
+	background-color: #88292F;
+}
+.list li:nth-child(3n+2) {
+	background-color: #5DB7DE;
+}
+.list li:nth-child(3n){
+background-color: #0D5D56;
+}
+.list li{
+	color: #0E1116;
+	list-style-type: none;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.list2 li {
+	list-style-type: none;
+	padding-left: 10px;
+}
+.list2 li:before {
+	content: "\2192";
+	margin-right: 10px;
+}
+p {
+	margin-top: 5px;
+	text-indent: 1.5em;
+}
+.task4 a, .task4 li {
+	text-decoration: none;
+	list-style-type: none;
+	color: black; 
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.task4 p:target {
+	color: red;
+}
+.task5 {
+	counter-reset: new1;
+}
+.task5 li {
+	list-style-type: none;
+	margin-top: 3px;
+}
+.task5 li::before {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid lightgrey;
+	background-color: #c9c9ee;
+	margin-right: 10px;
+	content: counter(new1);
+	counter-increment: new1 1;
+	line-height: 20px;
+	text-align: center;
+}
