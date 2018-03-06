@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 200vh;
+	background-image: url(../img/bglayer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: "Pathway Gothic One", Arial, Helvetica, sans-serif sans-serif;
+	color: #4e5050;
+}
+
+.wrapper {
+	width: 1024px;
+	margin:25px auto;
+	
+}
+.content {
+	background-color: #fff;
+	height: 500px;
+}

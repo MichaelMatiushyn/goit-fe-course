@@ -1,0 +1,95 @@
+
+.menu {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	margin-bottom: 50px;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Pathaway Ghotic One";
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 140px;
+	
+}
+
+.menu-item {
+	position: relative;
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Pathway Gothic One";
+}
+
+.menu a:hover {
+	color: #263555;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	top: 63%;
+	left: -19px;
+	list-style: none;
+	background-color: #fff;
+	color: #6b7488;
+	box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	line-height: 16px;
+	font-size: 20px;
+}
+
+.submenu::before {
+	position: absolute;
+	content: "";
+	top: -4px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 3px 4px 3px;
+	border-color: transparent transparent #fff transparent;
+}
+
+
+.submenu-item a {
+	display: inline-block;
+	width: 100%;
+	padding: 8px 20px;
+	font-family: "Pathway Gothic One";
+	font-size: 20px;
+	color: #6b7488;
+}
+
+.submenu-item a:hover {
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+.menu-item:hover>.submenu {
+	display: block;
+	/* color: #6b7488; */
+}
+
+.logo {
+	display: inline-block;
+	background-color: #fefefe;
+	width: 140px;
+	height: 140px;
+	border: 1px solid transparent;
+	border-radius: 70px;
+	color: #263555;
+}
+.logo a {
+color: #263555;
+font-family: Dorsa, sans-serif;
+font-size: 60px;
+}
+.logo:hover {
+	background-color: rgba(100%, 100%, 100%, 0.8);
+}

@@ -1,0 +1,80 @@
+.destination {
+  width: 100%;
+}
+
+.dest-descr {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 30px;
+  color: #263555;
+}
+
+.dest-body {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.dest {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 288px;
+  margin-right: 12px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding: 0;
+}
+
+.dest:last-child {
+  margin-right: 0;
+}
+
+.destination img {
+  width: 100%;
+  height: 100%;
+}
+
+.dest-1-descr {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  background-color: #193149;
+  color: #fff;
+
+}
+.dest-1-descr h3 {
+  width: 100%;
+  margin: 22px auto;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1;
+}
+.dest-1-descr p {
+  margin: 0 12px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.dest-btn {
+  display: block; */
+ position: relative;
+  top: 10px;
+  left: 20px;
+  width: 62px;
+  text-decoration: none;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #212121;
+}

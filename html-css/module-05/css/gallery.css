@@ -1,0 +1,141 @@
+.gallery {
+  position: relative;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.gallery-header {
+  margin-bottom: 60px;
+}
+
+.gallery img {
+  width: 902px;
+  height: 578px;
+}
+
+.slider-img {
+  position: absolute;
+  top: -582px;
+  height: 578px;
+}
+
+.img1 {
+  z-index: 4;
+  position: relative;
+  border: 0px;
+}
+
+.img2 {
+  z-index: 3;
+}
+
+.img3 {
+  z-index: 2;
+}
+
+.img4 {
+  z-index: 1;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.remarks {
+  position: absolute;
+  top: 280px;
+  z-index: 5;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.remark1 {
+  width: 225px;
+  text-align: center;
+  padding: 21px 15px;
+  box-sizing: border-box;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-left: 1px solid #ebebec;
+  color: #263555;
+}
+
+.remark2 {
+  width: 276px;
+  margin: 0 auto;
+  padding: 16px 14px;
+  text-transform: uppercase;
+  font-size: 34px;
+  background-color: #38afe5;
+  color: #fff;
+}
+
+.slider {
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+  top: 520px;
+  left: 120px;
+  /* top: -132px;
+  right: -45px; */
+}
+
+.half-circle1 {
+  display: inline-block;
+  width: 45px;
+  height: 90px;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  background-color: #38afe5;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.half-circle2 {
+  display: inline-block;
+  margin-left: -4px;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+  width: 45px;
+  height: 90px;
+  background-color: #38afe5;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.half-circle1::after {
+  content: '\2190';
+  position: absolute;
+  top: 0;
+  left: -3px;
+  line-height: 90px;
+  display: inline-block;
+  width: 45px;
+  text-align: right;
+}
+
+.half-circle2::after {
+  content: '\2192';
+  position: absolute;
+  top: 0;
+  left: 3px;
+  line-height: 90px;
+  display: inline-block;
+  width: 45px;
+  transform: translateX(100%);
+  text-align: left;
+}
+.half-circle1:hover {
+  background-color: rgba(100%, 100%, 100%, 0.8);
+  color: #38afe5;
+  font-weight: bolder;
+
+}
+
+.half-circle2:hover {
+  background-color: rgba(100%, 100%, 100%, 0.8);
+  color: #38afe5;
+  font-weight: bolder;
+}
