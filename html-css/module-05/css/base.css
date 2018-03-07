@@ -23,3 +23,37 @@ body {
 	background-color: #fff;
 	height: 500px;
 }
+main, footer {
+	position: relative;
+	width: 1024px;
+}
+
+.up {
+	position: absolute;
+	z-index: 100;
+	bottom: 22px;
+	right: 14px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #38AFE5;
+	color: #fff;
+	border: none;
+}
+
+.up::before {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 6px;
+	content: '\2b99';
+	font-size: 20px;
+}
+
+.up:focus {
+	outline: 0;
+}
+.up:hover{
+	background-color: rgba(56, 175, 229, 0.9);
+	box-shadow : 2px 2px 3px 0px rgba(50, 50, 50, 0.4);
+}
