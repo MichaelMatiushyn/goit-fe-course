@@ -1,0 +1,156 @@
+.team-head {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6.875rem;
+}
+
+.team-head::before {
+    content: '';
+    display: block;
+    width: 3.75rem;
+    border: 2px solid var(--color-red);
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-intro {
+    text-align: center;
+    color: var(--color-grey);
+    padding: 0 8.2rem;
+    margin-bottom: 5.625rem;
+}
+
+.team-gallery {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.team-memb {
+    position: relative;
+    flex-basis: 24rem;
+    margin: 0.5rem;
+    ;
+}
+
+figure {
+    display: block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.memb-port {
+    width: 100%;
+}
+
+.memb-title {
+    text-align: center;
+}
+
+.memb-title h4 {
+    font-family: var(--ff-Mo);
+    font-size: var(--fs-smalr);
+    color: var(--color-dark);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.memb-title p {
+    font-family: var(--ff-Ro);
+    font-size: var(--fs-smal);
+    color: var(--color-grey);
+    font-style: italic;
+}
+
+.memb-port {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.memb-port img {
+    width: 100%;
+    height: 100%;
+}
+
+.memb-port::before {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: -0.37rem;
+    right: 0.35rem;
+    content: '';
+    font-size: 20rem;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    transition: all 2s ease-in-out;
+    box-shadow: 0.375rem 0.375rem 0rem 0px var(--color-green);
+}
+
+.team-memb:hover .memb-port::before {
+    display: block;
+}
+
+.social-group {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    height: 10%;
+}
+
+.social-icon {
+    display: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-yellow);
+    border-right: 1px solid var(--color-red);
+    transition: all 0.3s ease-in-out;
+}
+
+.team-memb:hover .social-icon {
+    display: block;
+}
+
+.bg-facebook {
+    
+    background-image: url(../img/social-icons/facebook32-1.png);
+    
+}
+
+.bg-instagram {
+    background-image: url(../img/social-icons/instagram32.png);
+    border-right: none;
+}
+
+.bg-pinterest {
+    background-image: url(../img/social-icons/pinterest32.png);
+}
+
+.bg-twitter {
+    background-image: url(../img/social-icons/twitter32.png);
+}
+
+.social-icon:hover {
+    background-color: var(--color-red);
+}
+
+.team {
+    margin-bottom: 5rem;
+}

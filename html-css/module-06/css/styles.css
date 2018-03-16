@@ -1,0 +1,46 @@
+@import 'vars.css';
+@import 'header.css';
+@import 'header.css';
+@import 'services.css';
+@import 'team.css';
+@import 'footer.css';
+
+body {
+  margin: 0;
+  padding: 20px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  padding-bottom: 0;
+  width: 75rem;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h2 {
+  font-family: var(--ff-Kau);
+  font-size: var(--fs-H2);
+  font-weight: normal;
+  color: #333333;
+}
+
+h2::first-letter {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: var(--ff-Mo);
+  font-size: var(--fs-H1);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+}
+img {
+  display: block;
+}

@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6875rem 0;
+  border-top: 0.1rem solid var(--color-lgrey);
+}
+
+.author {
+  font-family: var(--ff-Mo);
+  font-size: var(--fs-smalr);
+  color: var(--color-dark);
+}
+
+.author::before {
+  content: '\00A9';
+  display: inline-block;
+  padding-right: 0.2rem;
+  font-family: var(--ff-Mo);
+  font-size: var(--fs-smalr);
+  color: var(--color-dark);
+}
+
+.author-link {
+  color: var(--color-red);
+}
+
+.input {
+  display: flex;
+}
+
+.input-email {
+  padding: 0.8125rem;
+  width: 14.25rem;
+  font-family: var(--ff-Ro);
+  font-style: italic;
+  font-size: var(--fs-smal);
+  border: 0.05rem solid #cfcfcf;
+  border-right: none;
+}
+
+input:focus {
+  outline: none;
+  border: 0.05rem solid #cfcfcf;
+  border-right: none;
+}
+
+.submit {
+  width: 9.375rem;
+  text-transform: uppercase;
+  font-family: var(--ff-Mo);
+  font-size: var(--fs-smalr);
+  font-weight: var(--fw-bo);
+  background-color: var(--color-green);
+  color: var(--color-white);
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #cfcfcf;
+}

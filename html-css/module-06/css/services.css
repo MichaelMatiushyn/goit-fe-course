@@ -1,0 +1,68 @@
+
+.service-head {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 6.875rem;
+}
+
+.service-head::before {
+  content: '';
+  display: block;
+  width: 3.75rem;
+  border: 2px solid var(--color-red);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.625rem;
+}
+
+.service-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  width: 32%;
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+}
+
+.service-text {
+  padding: 1rem 0.1rem;
+  width: 73%;
+}
+
+.s-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.service-text h4 {
+  font-family: var(--ff-Mo);
+  font-weight: normal;
+  font-size: var(--fs-smalr);
+  text-transform: uppercase;
+  color: var(--color-dark);
+}
+
+.service-text p {
+  font-family: var(--ff-Ro);
+  font-size: var(--fs-smal);
+  color: var(--color-grey);
+}
+
+.services-body {
+  margin-bottom: 5.2rem;
+}

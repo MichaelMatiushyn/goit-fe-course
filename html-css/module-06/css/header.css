@@ -1,0 +1,63 @@
+header {
+  padding: 5px;
+  margin-bottom: 6.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 5.125rem;
+}
+
+.logo-link {
+  padding-bottom: 0.32rem;
+  text-decoration: none;
+  font-family: var(--ff-Mo);
+  font-weight: var(--fw-bo);
+  font-size: 1.875rem;
+  color: var(--color-green);
+  transition: all 1s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-link:hover {
+  color: var(--color-red);
+}
+
+ul li {
+  display: block;
+  list-style: none;
+}
+
+.menu-body {
+  position: relative;
+  width: 30.625rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  flex: 1;
+  text-align: center;
+}
+
+.menu-link {
+  padding-bottom: 0.32rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-green);
+  font-family: var(--ff-Mo);
+  font-size: var(--fs-smalr);
+  transition: all 0.5s ease;
+}
+
+.menu-item:hover>.menu-link {
+  position: relative;
+  bottom: 0.32rem;
+  color: var(--color-red);
+  border-bottom: 1px solid var(--color-red);
+}

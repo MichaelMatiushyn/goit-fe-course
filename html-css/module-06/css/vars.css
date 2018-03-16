@@ -1,0 +1,20 @@
+:root {
+  --color-red: #f38181;
+  --color-yellow: #fce38a;
+  --color-salad: #eaffd0;
+  --color-green: #95e1d3;
+  --color-grey: #999999;
+  --color-lgrey: #e5e5e5;
+  --color-dark: #333333;
+  --color-yellow: #fce38a;
+  --color-white: #ffffff;
+  --fs-stand: 1rem;
+  --fs-smal: 0.94rem;
+  --fs-smalr: 0.875rem;
+  --fs-H2: 1.5rem;
+  --fs-H1: 1.875rem;
+  --ff-Mo: 'Montserrat', sans-serif;
+  --ff-Kau: 'Kaushan Script', sans-serif;
+  --ff-Ro: 'Roboto', sans-serif;
+  --fw-bo: bold;
+}
