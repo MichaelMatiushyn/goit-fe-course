@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  padding-top: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+.logo {
+  width: 9rem;
+  padding: 0.5rem;
+  color: var(--color-gold);
+  font-family: var(--ff-WisScri);
+  font-size: 1.86rem;
+}
+
+.logo::first-letter {
+  text-transform: uppercase;
+}
+
+.nav {
+  width: 30.32rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  
+}
+
+.menu-links {
+  font-family: var(--ff-MonRe);
+  color: var(--color-dark);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.menu-links:hover {
+  color: var(--color-gold);
+  transition: all 200ms linear;
+}

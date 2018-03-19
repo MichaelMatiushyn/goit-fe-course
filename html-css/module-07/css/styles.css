@@ -1,0 +1,12 @@
+@import 'fonts.css';
+@import 'vars.css';
+@import 'base.css';
+@import 'header.css';
+@import 'services.css';
+@import 'contact-form.css';
+
+body {
+  font-size: 16px;
+  min-height: 100vh;
+
+}

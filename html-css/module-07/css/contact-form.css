@@ -1,0 +1,92 @@
+.contact-form {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  padding-top: 6.875rem;
+  width: 58.75rem;
+  
+}
+.contact-bg {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4rem 0;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.contact-bg-img {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.contact-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 6.875rem;
+  }
+
+.contact-title {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-title h2 {
+  color: var(--color-white);
+}
+
+.contact-title h3 {
+  color: var(--color-grey);
+}
+
+.fill-content {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.group-item {
+  width: 48%;
+}
+
+.personal-data input{
+  margin-bottom: 1rem;
+}
+.personal-data{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.personal-data input:last-child {
+  margin-bottom: 0;
+}
+.message-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fill-send {
+text-align: center;
+}
+
+.fill-in-group {
+  width: 100%;
+}
+
+.button-send {
+  padding: 1.56rem;
+  width: 15rem;
+  font-family: var(--ff-MonBo);
+  font-size: 1.125rem;
+  color: var(--color-white);
+  background-color: var(--color-gold);
+  border-radius: 2px;
+  border: none;
+  text-transform: uppercase;
+}

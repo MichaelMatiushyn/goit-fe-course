@@ -1,0 +1,22 @@
+:root {
+  --color-gold: #fed136;
+  --color-dark: #222222;
+  --color-grey: #777777;
+  --color-light-grey: #bbbbbb;
+  --color-white: #ffffff;
+
+  --ff-OpSaRe: 'OpenSansRe';
+  --ff-OpSaIt: 'OpenSansIt';
+  --ff-RoSlRe: 'RobotoSlabRe';
+  --ff-MonBo: 'MonBo';
+  --ff-MonRe: 'MonRe';
+  --ff-WisScri: 'WisScri';
+  --ff-PtSeRe: 'PtSeRe';
+  --ff-PtSeIt: 'PtSeIt';
+  --ff-PtSeBo: 'PtSeBo';
+  --fs-stand: 1rem;
+  --fs-smal: 0.94rem;
+  --fs-smalr: 0.875rem;
+  --fs-H2: 1.5rem;
+  --fs-H1: 1.875rem;
+}
