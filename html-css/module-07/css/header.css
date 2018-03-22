@@ -4,12 +4,14 @@
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
 }
 
 .logo {
   width: 9rem;
   padding: 0.5rem;
+}
+
+.logo a {
   color: var(--color-gold);
   font-family: var(--ff-WisScri);
   font-size: 1.86rem;
@@ -27,7 +29,6 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
-  
 }
 
 .menu-links {
