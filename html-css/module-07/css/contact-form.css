@@ -60,17 +60,12 @@ justify-content: space-between;
 }
 
 .input-opt:valid {
-  outline: 1px solid green;
+  outline: 0.2rem solid green;
 }
 
 .input-opt:invalid {
-  outline: 0.10rem solid red;
+  outline: 0.2rem solid red;
 }
-
-.input-opt:active {
-  outline: 0.10rem solid  transparent;
-}
-
 
 .fill-send {
 text-align: center;
