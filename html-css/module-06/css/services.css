@@ -1,4 +1,3 @@
-
 .service-head {
   position: relative;
   margin: auto;
@@ -12,7 +11,7 @@
   width: 3.75rem;
   border: 2px solid var(--color-red);
   position: absolute;
-  top: 150%;
+  top: 130%;
   left: 50%;
   transform: translateX(-50%);
 }

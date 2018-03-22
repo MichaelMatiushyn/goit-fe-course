@@ -11,13 +11,14 @@
     width: 3.75rem;
     border: 2px solid var(--color-red);
     position: absolute;
-    top: 150%;
+    top: 130%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .team-intro {
     text-align: center;
+    font-family: var(--ff-Ro);
     color: var(--color-grey);
     padding: 0 8.2rem;
     margin-bottom: 5.625rem;
@@ -28,13 +29,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .team-memb {
     position: relative;
-    flex-basis: 24rem;
-    margin: 0.5rem;
+    flex-basis: 30%;
     ;
 }
 
@@ -45,8 +45,8 @@ figure {
     padding: 0;
 }
 
-.memb-port {
-    width: 100%;
+.member {
+    position: relative;
 }
 
 .memb-title {
@@ -70,44 +70,53 @@ figure {
 
 .memb-port {
     position: relative;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
+    transition: all 200ms linear 0s;
 }
 
 .memb-port img {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .memb-port::before {
     position: absolute;
     display: none;
     z-index: 1;
-    top: -0.37rem;
-    right: 0.35rem;
     content: '';
     font-size: 20rem;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
-    transition: all 200ms linear;
-    box-shadow: 0.375rem 0.375rem 0rem 0px var(--color-green);
+    box-shadow: 0.625rem 0.625rem 0rem 0px var(--color-green);
+    transition: all 0s linear 5s;
 }
 
-.team-memb:hover .memb-port::before {
+.member:hover>.memb-port::before {
     display: block;
+}
+
+.member:hover>.memb-port {
+    position: relative;
+    top: -10px;
+    left: -10px;
 }
 
 .social-group {
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     z-index: 2;
-    width: 100%;
+    width: 65%;
     height: 10%;
 }
 
@@ -120,31 +129,43 @@ figure {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--color-yellow);
-    border-right: 1px solid var(--color-red);
     transition: all 200ms linear;
 }
 
-.team-memb:hover .social-icon {
+.memb-port:hover .social-icon {
     display: block;
 }
 
 .bg-facebook {
-    
-    background-image: url(../img/social-icons/facebook32-1.png);
-    
+    background-image: url(../img/social-icons/facebook.png);
+}
+
+.bg-facebook:hover {
+    background-image: url(../img/social-icons/facebook-white.png);
 }
 
 .bg-instagram {
-    background-image: url(../img/social-icons/instagram32.png);
-    border-right: none;
+    background-image: url(../img/social-icons/instagram.png);
+}
+
+.bg-instagram:hover {
+    background-image: url(../img/social-icons/instagram-white.png);
 }
 
 .bg-pinterest {
-    background-image: url(../img/social-icons/pinterest32.png);
+    background-image: url(../img/social-icons/pinterest.png);
+}
+
+.bg-pinterest:hover {
+    background-image: url(../img/social-icons/pinterest-white.png);
 }
 
 .bg-twitter {
-    background-image: url(../img/social-icons/twitter32.png);
+    background-image: url(../img/social-icons/twitter.png);
+}
+
+.bg-twitter:hover {
+    background-image: url(../img/social-icons/twitter-white.png);
 }
 
 .social-icon:hover {

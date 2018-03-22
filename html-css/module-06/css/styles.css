@@ -28,19 +28,23 @@ h2 {
   font-size: var(--fs-H2);
   font-weight: normal;
   color: #333333;
+  line-height: 3rem;
 }
 
 h2::first-letter {
   text-transform: uppercase;
 }
 
-h1 {
+.h2-main {
   font-family: var(--ff-Mo);
   font-size: var(--fs-H1);
   font-weight: bold;
   text-transform: uppercase;
   color: #333333;
 }
+
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }

@@ -59,7 +59,6 @@ ul li {
 
 .menu-item:hover>.menu-link {
   position: relative;
-  bottom: 0.32rem;
   color: var(--color-red);
   border-bottom: 1px solid var(--color-red);
 }
