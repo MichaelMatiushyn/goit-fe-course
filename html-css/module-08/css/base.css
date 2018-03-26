@@ -8,15 +8,19 @@ body {
   font-size: 16px;
 }
 
-.wrapper {
-  width: 100%;
+main {
   min-width: 320px;
+  background-image: url('../img/bg/header320.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.container {
+section {
   margin: 0 auto;
-  width: 20rem;
-  background-color: #fff;
+  min-width: 20rem;
+  max-width: 20rem;
 }
 
 ul li {
@@ -38,7 +42,7 @@ p::first-letter {
   text-transform: uppercase;
 }
 
-h2,
+h1,
 h3 {
   text-transform: uppercase;
   font-family: var(--ff-Mon);
@@ -46,10 +50,9 @@ h3 {
 
 h3 {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
 }
 
-h2 {
+h1 {
   font-size: 1.875rem;
   margin-bottom: 0.8rem;
 }
@@ -74,23 +77,19 @@ h5 {
   color: var(--color-dark);
 }
 
-button {
-  font-family: var(--ff-Mon);
-  outline: none;
+.button-find,
+.find {
+  margin: auto;
 }
 
-button::first-letter {
-  text-transform: uppercase;
-}
-
-@media screen and (min-width:768px) {
-  .wrapper {
-    min-width: 768px;
+@media screen and (min-width:480px) {
+  main {
+    background-image: url('../img/bg/header768.jpg');
   }
-  .container {
-    width: 48rem;
+  section {
+    max-width: 53.125rem;
   }
-  h2 {
+  h1 {
     font-size: 3.25rem;
     margin-bottom: 2.5rem;
   }
@@ -100,7 +99,11 @@ button::first-letter {
 }
 
 @media screen and (min-width:960px) {
-  .container {
-    width: 60rem;
+  main {
+    min-width: 60rem;
+    background-image: url('../img/bg/header1440.jpg');
+  }
+  section {
+    min-width: 60rem;
   }
 }
