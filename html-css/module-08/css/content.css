@@ -80,7 +80,7 @@
 }
 
 .find {
-  padding: 0.812rem;
+  padding: 0.625rem 0.812rem;
   width: 88%;
   font-family: var(--ff-Mon);
   font-size: 0.875rem;
