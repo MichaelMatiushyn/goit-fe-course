@@ -8,19 +8,9 @@ body {
   font-size: 16px;
 }
 
-main {
-  min-width: 320px;
-  background-image: url('../img/bg/header320.jpg');
-  background-repeat: no-repeat;
-  background-position: top center;
-  box-sizing: border-box;
-  text-align: center;
-}
-
 section {
   margin: 0 auto;
   min-width: 20rem;
-  max-width: 20rem;
 }
 
 ul li {
@@ -83,11 +73,8 @@ h5 {
 }
 
 @media screen and (min-width:480px) {
-  main {
-    background-image: url('../img/bg/header768.jpg');
-  }
   section {
-    max-width: 53.125rem;
+    max-width: 100%;
   }
   h1 {
     font-size: 3.25rem;
@@ -101,7 +88,6 @@ h5 {
 @media screen and (min-width:960px) {
   main {
     min-width: 60rem;
-    background-image: url('../img/bg/header1440.jpg');
   }
   section {
     min-width: 60rem;
