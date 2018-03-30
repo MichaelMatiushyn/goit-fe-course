@@ -92,6 +92,11 @@
 	.header-content {
 		width: 100%;
 	}
+	.top {
+		width: 20rem;
+		margin: auto;
+		margin-bottom: 2rem;
+	}
 	.loginblock {
 		width: 85%;
 	}
@@ -106,7 +111,8 @@
 		background-image: url('../img/bg/header768.jpg');
 	}
 	.top {
-		width: 100%;
+		width: 500px;
+		margin: auto;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
@@ -154,6 +160,9 @@
 	.header {
 		background-image: url('../img/bg/header1440.jpg');
 	}
+	.top {
+		width:43.75rem;
+	}
 }
 
 /* MEDIA WIDE SCREEN */
@@ -161,9 +170,11 @@
 @media screen and (min-width:960px) {
 	.header {
 		max-width: 1440px;
+		margin: auto;
 		background-image: url('../img/bg/header1440.jpg');
 	}
 	.top {
+		width: 58.875rem;
 		padding-top: 2rem;
 	}
 }
