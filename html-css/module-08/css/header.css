@@ -8,6 +8,7 @@
 .header {
 	height: 540px;
 }
+
 .container {
 	margin: auto;
 }
@@ -32,7 +33,7 @@ header {
 	display: flex;
 	order: 1;
 	justify-content: space-between;
-	width: 54%;
+	width: 12.5rem;
 	margin: 0 auto;
 	margin-bottom: 5.5rem;
 	padding-top: 1.25rem;
@@ -52,7 +53,8 @@ header {
 }
 
 .login-item {
-	width: 5.625rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
 
 .link-sign {
@@ -91,7 +93,6 @@ header {
 		background-image: url('../img/bg/header768.jpg');
 		background-position: top center;
 	}
-
 	.container {
 		max-width: 264px;
 	}
@@ -102,7 +103,7 @@ header {
 		margin: auto;
 		margin-bottom: 2rem;
 	}
-	}
+}
 
 /* MEDIA TABLET */
 
@@ -174,13 +175,12 @@ header {
 
 @media screen and (min-width:960px) {
 	header {
-		
 		background-image: url('../img/bg/header1440.jpg');
 	}
-	 .container {
-	 	max-width: 940px;
-	 	margin: auto;
-	 }
+	.container {
+		max-width: 940px;
+		margin: auto;
+	}
 	.top {
 		padding: 2rem 1rem 0 1rem;
 	}
