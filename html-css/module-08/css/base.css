@@ -9,8 +9,12 @@ body {
 }
 
 section {
-  margin: 0 auto;
-  min-width: 20rem;
+    min-width: 20rem;
+}
+
+.container {
+  max-width: 264px;
+  margin: auto;
 }
 
 ul li {
@@ -72,11 +76,10 @@ h5 {
   margin: auto;
 }
 
+
 @media screen and (min-width:480px) {
-  section {
-    max-width: 100%;
-  }
-  h1 {
+  
+   h1 {
     font-size: 3.25rem;
     margin-bottom: 2.5rem;
   }
@@ -89,6 +92,7 @@ h5 {
   main {
     min-width: 60rem;
   }
+ 
   section {
     min-width: 60rem;
   }
