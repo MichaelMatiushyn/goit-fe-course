@@ -1,0 +1,154 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4.25rem 0;
+  padding-bottom: 3.57rem;
+  text-align: center;
+}
+
+.content h4 {
+  flex-basis: 100%;
+}
+
+.content p {
+  font-family: var(--ff-Rob);
+  font-size: 0.875rem;
+  font-weight: lighter;
+  color: var(--color-grey);
+}
+
+.member-row {
+  
+  margin: auto;
+}
+
+.member-group,
+.member {
+    justify-content: center;
+  }
+
+.member-group {
+ 
+  margin-bottom: 1.875rem;
+}
+
+.member {
+  position: relative;
+  padding: 0 2.125rem;
+  margin-bottom: 1.75rem;
+}
+
+.memb-port {
+  margin-bottom: 1.25rem;
+  width: 7.5rem;
+  height: auto;
+  border-radius: 3.75rem;
+}
+
+.member-sign {
+  position: absolute;
+  top: 5.2rem;
+  left: 60%;
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  box-sizing: border-box;
+  border-radius: 2.75rem;
+  border: 0.25rem solid white;
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-1 {
+  background-color: var(--color-red);
+  background-image: url('../img/icon/icon-1.png');
+}
+
+.member-2 {
+  background-color: var(--color-gold);
+  background-image: url('../img/icon/icon-4.png');
+}
+
+.member-3 {
+  background-color: var(--color-aqua);
+  background-image: url('../img/icon/icon-3.png');
+}
+
+.member-4 {
+  background-color: var(--color-blue);
+  background-image: url('../img/icon/icon-2.png');
+}
+
+.member:nth-last-child(-n+1) {
+  margin-bottom: 0;
+}
+
+.find {
+  padding: 0.625rem 0.812rem;
+  width: 88%;
+  font-family: var(--ff-Mon);
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--color-red);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-red);
+  border-radius: 25px;
+}
+
+/* MEDIA RESPONSIVE MOBILE-TABLET */
+
+@media screen and (min-width:321px) {
+  .content {
+    padding: 4.25rem 1rem;
+  }
+}
+
+/* MEDIA min 480 */
+
+@media screen and (min-width:480px) {
+  .content {
+    padding-bottom: 2.5rem;
+  }
+  .member-row {
+        margin-bottom: 2.5rem;
+  }
+  .member-group {
+    flex-basis: 492px;
+    max-width: 492px;
+    margin-bottom: 0;
+  }
+  .member {
+    padding: 0 0.9rem;
+  }
+
+  .member-sign {
+    left: 9.1rem;
+  }
+  .member:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+  .find {
+    flex-basis: 12rem;
+  }
+}
+
+/* MEDIA  min 960 */
+
+@media screen and (min-width:960px) {
+  .content {
+    padding: 4.25rem 0.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .member-group {
+    max-width: 940px;
+  }
+  .member {
+        margin-bottom: 0;
+  }
+  .find {
+    flex-basis: 12rem;
+    margin-bottom: 0;
+  }
+}
