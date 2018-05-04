@@ -6,13 +6,14 @@ while (userInput !== null) {
   userInput = prompt('Введите число!');
   const asNumber = Number(userInput);
 
-  if (asNumber) {
-
-    if (userInput !== null) {
+  if (userInput !== null) {
+    if (asNumber) {
       numbers.push(Number(userInput));
+    } else {
+      alert('Было введено не число, попробуйте еще раз!');
     }
   } else {
-    alert('Было введено не число, попробуйте еще раз!');
+    break;
   }
 }
 
