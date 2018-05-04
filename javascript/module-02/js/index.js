@@ -7,7 +7,10 @@ while (userInput !== null) {
   const asNumber = Number(userInput);
 
   if (asNumber) {
-    numbers.push(Number(userInput));
+
+    if (userInput !== null) {
+      numbers.push(Number(userInput));
+    }
   } else {
     alert('Было введено не число, попробуйте еще раз!');
   }
