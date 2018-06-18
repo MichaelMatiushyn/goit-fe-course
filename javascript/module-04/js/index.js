@@ -32,6 +32,7 @@ function Cashier(name, productDatabase) {
   };
 
   this.makeDatabase = function (productDatabase) {
+    this.reset();
     this.Database = productDatabase;
     const asArr = Object.entries(this.Database);
 
